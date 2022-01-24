@@ -1,0 +1,18 @@
+<%- include ('partials/header')  %> 
+
+<div class="container">
+  <h1>The numbers api</h1>
+  <h3>A backend solution</h3>
+  <br>
+  <form action="/trivia" method="GET">
+
+    <input type="submit" value="Press it">
+
+  </form>
+  <br>
+  <h4 >The results of our api action are as follows: </h4>
+  <p> <%= trivia %>  </p>
+
+</div>
+
+<%- include ('partials/footer')  %> 

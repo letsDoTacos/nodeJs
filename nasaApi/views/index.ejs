@@ -1,0 +1,41 @@
+
+<%- include('partials/header') %> 
+
+<div class="container">
+  <div class="logo">
+    <img src="/assets/nasa-logo.png" alt="Dark / Round NASA logo">
+  </div>
+    <div class="form">
+      <h1>Welcome to my NASA api astronomy picture of the day project</h1>
+
+      <form action="/getPic" method="get">
+
+        <div class="pod">
+          <img src=" <%= data %> " alt="NASA astronomy picture of the day">
+          <!-- <iframe src="<%= data %> " frameborder="0" height="300px" width="550px"></iframe> -->
+        </div>
+        <br><br>
+        <input type="submit" value="Get the pic of the day">
+      </form>
+    </div>
+    <br>
+</div>
+
+  <%- include('partials/footer') %> 
+
+
+
+
+
+    <!-- <div class="container">
+      <img src="assets/chuckNorris.png" alt="8 bit Chuck Norris">
+    <div class="form">
+      <form action="/getJoke" method="get">
+        <br>
+        <input type="submit" class="btn btn-outline-danger btn-lg" value="Get Facts">
+      </form>
+        <br>
+      <p class="overflow-visible"><%= data %> </p>
+    </div>
+    </div> -->
+    

@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  background-color: teal;
+  color: white;
+}
+
+.container {
+  margin-left: 30px;
+  text-align: center;
+}

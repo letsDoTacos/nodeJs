@@ -1,0 +1,13 @@
+<%- include ('partials/header') %> 
+  <div class="container">
+    <h1>Deck of cards</h1>
+      <form action="/deal" method="get">
+        <button type="submit">Deal me in!!</button>
+      </form>
+
+    <% cards.forEach(element => { %>
+    <img src='<%= element.image %>'' alt="<%= element.value %> of <%= element.suit %>">
+    <% }) %>
+    
+  </div>
+<%- include ('partials/footer') %> 

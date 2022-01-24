@@ -1,0 +1,22 @@
+<%- include ('partials/header') %> 
+
+
+<div class="container">
+  <img src="assets/nasa.png" alt="nasa logo">
+  <br>
+  <br>
+  <br>
+  <h1>NASA ISS Location api</h1>
+  <h2>A backend solution</h2>
+
+  <form action="/location" method="GET">
+    <input id="btn" type="submit" value="Current Location">
+
+  </form>
+  <br>
+  <h3>The ISS is currently traveling around Earth at <em class="speed">17,130</em> mph. <br>
+  The current Location is: <%= latitude %>, <%= longitude %> </h3>
+  </div>
+
+
+<%- include ('partials/footer') %> 

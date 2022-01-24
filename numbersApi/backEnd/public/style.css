@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  background-color: greenyellow;
+}
+
+.container {
+  margin-left: 30%;
+  margin-right: 40%;
+  margin-top: 15%;
+}

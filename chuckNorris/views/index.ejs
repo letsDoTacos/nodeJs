@@ -1,0 +1,16 @@
+<%- include('partials/header')  %> 
+
+
+    <div class="container">
+      <img src="assets/chuckNorris.png" alt="8 bit Chuck Norris">
+    <div class="form">
+      <form action="/getJoke" method="get">
+        <br>
+        <input type="submit" class="btn btn-outline-danger btn-lg" value="Get Facts">
+      </form>
+        <br>
+      <p class="overflow-visible"><%= data %> </p>
+    </div>
+    </div>
+    
+<%- include('partials/footer')  %>
